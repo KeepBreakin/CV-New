@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+
+.header {
+  background-color: #292c33;
+  height: 215px;
+  color: white;
+}
+
+.header i {
+  color: #f87539;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #f87539;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 14px;
+}
+
+img {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  width: 170px;
+  height: 180px;
+  margin: 0px 80px;
+}
+
+.area-linkedIn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 65px;
+}
+
+.mail-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-heading {
+  color: #f87539;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.panel-body {
+  color: #292c33;
+  font-size: 12px;
+}
+
+.panel-body i {
+  margin-right: 8px;
+}
+
+.line {
+  position: relative;
+  padding: 10px 10px 10px 35px;
+}
+
+.line::before {
+  content: "";
+  width: 5px;
+  background-color: #f87539;
+  position: absolute;
+  top: 5px;
+  bottom: 25px;
+  left: 0px;
+}
+.wrap {
+  padding: 6px 0;
+  position: relative;
+}
+.wrap::after {
+  content: "";
+  background: #fff;
+  border: 4px solid #f87539;
+  width: 16px;
+  height: 16px;
+  border-radius: 20px;
+  position: absolute;
+  top: 10%;
+  left: -41px;
+}
+
+hr {
+  margin: 2px 0px 5px 0px;
+}
+
+i.fab.fa-html5.fa-2x {
+  margin: 0;
+}
+
+i.fab.fa-css3-alt.fa-2x {
+  margin: 0;
+}
+
+i.fab.fa-js.fa-2x {
+  margin: 0;
+}
+
+i strong {
+  margin-left: 5px;
+}
+
+.js {
+  margin-left: 3px;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+}
+
+#skills span {
+  font-size: 12px;
+
+}
+#skills strong {
+  font-size: 14px;
+}
