@@ -1,17 +1,20 @@
+
 body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #d9d9d9;
+  max-width: 1280px;
+  /* background-color: #d9d9d9; */
 }
 
-.header {
+#header {
   background-color: #292c33;
-  height: 215px;
+  height: 280px;
   color: white;
+  max-width: 1280px;
 }
 
-.header i {
+#header i {
   color: #f87539;
 }
 
@@ -30,19 +33,28 @@ h1 {
   font-size: 14px;
 }
 
-img {
+.info p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.foto {
+  background-image: url(manuel1.png);
   border: 2px solid #ffffff;
   border-radius: 50%;
-  width: 170px;
-  height: 180px;
-  margin: 0px 80px;
+  width: 200px;
+  height: 200px;
+  margin: 0px 120px;
+  background-size: cover;
+  background-position: center;
+  float: left;
 }
 
 .area-linkedIn {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-left: 65px;
+  margin-left: 70px;
 }
 
 .mail-phone {
@@ -52,17 +64,27 @@ img {
 
 .panel-heading {
   color: #f87539;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.panel-heading span {
+  margin-left: 8px;
 }
 
 .panel-body {
   color: #292c33;
   font-size: 12px;
+  padding: 20px 0px 35px 0px;
 }
 
 .panel-body i {
   margin-right: 8px;
+}
+
+.panel-body ul {
+  margin: 0;
 }
 
 .line {
@@ -72,7 +94,7 @@ img {
 
 .line::before {
   content: "";
-  width: 5px;
+  width: 4px;
   background-color: #f87539;
   position: absolute;
   top: 5px;
@@ -96,7 +118,7 @@ img {
 }
 
 hr {
-  margin: 2px 0px 5px 0px;
+  margin: 0;
 }
 
 i.fab.fa-html5.fa-2x {
@@ -110,24 +132,41 @@ i.fab.fa-css3-alt.fa-2x {
 i.fab.fa-js.fa-2x {
   margin: 0;
 }
-
-i strong {
-  margin-left: 5px;
+.html {
+  margin-left: 8px;
 }
-
 .js {
-  margin-left: 3px;
+  margin: 0px 40px 10px 5px;
 }
 
-#skills {
-  display: flex;
-  flex-direction: column;
+.css {
+  margin: 0px 74px 0px 8px;
 }
 
-#skills span {
-  font-size: 12px;
-
+.andere {
+  margin: 0px 57px 0px 0px;
 }
-#skills strong {
-  font-size: 14px;
+
+.progress-bar {
+  background-color: #292c33;
+}
+
+.profile-text {
+  margin: 0;
+}
+
+.fab fa-stack-exchange {
+  margin: 0;
+}
+
+.linked {
+  margin-left: 2px;
+}
+
+i.fab.fa-linkedin.fa-2x {
+  margin-left: 1px;
+}
+
+.panel-body > p {
+  word-wrap: break-word;
 }
